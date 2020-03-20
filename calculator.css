@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans Light";
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    height: 600px;
+    background: darkcyan;
+}
+
+header {width: 100%;}
+
+h1 {text-align: center; color:white}
+
+.calculator-case {
+    background: rgb(37, 37, 37);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid rgb(31, 31, 31);
+    border-left: 2px solid gray;
+    border-top: 2px solid lightgray;
+}
+
+.screen {
+    width: 60%;
+    text-align: center;
+    color: greenyellow;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-right: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+    border-left: 2px solid grey;
+    border-top: 2px solid darkgrey;
+}
+
+input {
+    width: 100%;
+    color: yellowgreen;
+    font-size: 14px;
+    background: black;
+    height: 20px;
+    border: none;
+    text-align: right;
+}
+
+p {
+    background: black;
+    width: 100%;
+}
+
+.square {
+    width: 50px;
+    background: black;
+    color: greenyellow;
+    border-radius: 8px;
+    border-color: yellowgreen;
+}
+
+.Wx2 {
+    width: 104px;
+    background: black;
+    color: yellowgreen;
+    border-radius: 8px;
+    border-color: yellowgreen;
+}
+
+.Hx2 {
+    height: 44px;
+    width: 22px;
+    background: black;
+    color: yellowgreen;
+    border-radius: 8px;
+    border-color: yellowgreen;
+}
+
+.buttons {display: flex;}
+
+.sideA {width: 160px;}
+
+.sideB {
+    width: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.square22 {
+    width: 22px;
+    background: black;
+    color: yellowgreen;
+    border-radius: 8px;
+    border-color: yellowgreen;
+
+}

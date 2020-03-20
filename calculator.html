@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <header>
+            <h1>Calculator</h1>
+        </header>
+        <section class="calculator-case">
+            <section class="screen">
+                <p id="current-calculation">0</p>
+                <p>Result: <span id="result">0</span></p>
+                <input type="text" id="number-input" placeholder="0">
+            </section>
+            <section class="buttons">
+                <div class="sideA">
+                    <button class="square" onclick="reboot()">r</button>
+                    <button class="square" id="divide-btn">/</button>
+                    <button class="square" id="multiply-btn">*</button>
+                    <button class="square" onclick="marcar(7)">7</button>
+                    <button class="square" onclick="marcar(8)">8</button>
+                    <button class="square" onclick="marcar(9)">9</button>
+                    <button class="square" onclick="marcar(4)">4</button>
+                    <button class="square" onclick="marcar(5)">5</button>
+                    <button class="square" onclick="marcar(6)">6</button>
+                    <button class="square" onclick="marcar(1)">1</button>
+                    <button class="square" onclick="marcar(2)">2</button>
+                    <button class="square" onclick="marcar(3)">3</button>
+                    <button class="Wx2" onclick="marcar(0)">0</button>
+                    <button class="square" onclick="marcarDecimal()">.</button>
+                </div>
+                <div class="sideB">
+                    <button class="square22" id="substract-btn">-</button>
+                    <button class="Hx2" id="add-btn">+</button>
+                    <button class="Hx2">=</button>
+                </div>
+            </section>
+        </section>
+        <script src="vendors.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
